@@ -8,6 +8,7 @@ TARGET_HEIGHT = 850
 
 st.title("Logo Resizer (1500 × 850, transparent)")
 st.write("Upload ein Logo, es wird proportional skaliert und zentriert, ohne Überlauf.")
+st.write("Falls möglich ein *.png Bild als Grundlage auswählen!")
 
 uploaded_file = st.file_uploader("Logo hochladen", type=["png", "jpg", "jpeg"])
 
