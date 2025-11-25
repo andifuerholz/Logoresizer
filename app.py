@@ -6,9 +6,8 @@ import io
 TARGET_WIDTH = 1500
 TARGET_HEIGHT = 850
 
-st.title("Logo Resizer (1500 × 850, transparent)")
-st.write("Upload ein Logo, es wird proportional skaliert und zentriert, ohne Überlauf.")
-st.write("Falls möglich ein *.png Bild als Grundlage auswählen!")
+st.title("Logo Resizer (1500 × 850 px) mit transparentem Hintergrund")
+st.write("Lade ein *png Logo mit idealerweise einer Grösse von > 1500x850 px hoch und mit transparentem Hintergrund. Das Logo wird automatisch skaliert und eingemittet.")
 
 uploaded_file = st.file_uploader("Logo hochladen", type=["png", "jpg", "jpeg"])
 
